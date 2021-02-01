@@ -1,0 +1,16 @@
+{
+  "name": "nullboard",
+  "version": "1.0.0",
+  "description": "Lightweight kanban board",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "The 2-clause BSD License",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
+  }
+}
