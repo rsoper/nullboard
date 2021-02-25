@@ -10,7 +10,7 @@ The name also happens to abbreviate to [NB](https://en.wikipedia.org/wiki/Nota_b
 
 ## Run with docker
 
-Run Nullboard in a docker container using `docker-compose build && docker-compose up -d`
+Run Nullboard in a docker container using `docker-compose up -d`. The image is now available on docker hub. 
 
 ## Dead simple
 
