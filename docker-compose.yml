@@ -1,7 +1,7 @@
 version: "3"
 services:
   nullboard:
-    build: .
+    image: richardsoper/nullboard:latest
     ports:
       - "80:80"
     container_name: "Nullboard"

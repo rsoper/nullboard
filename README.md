@@ -10,7 +10,7 @@ The name also happens to abbreviate to [NB](https://en.wikipedia.org/wiki/Nota_b
 
 ## Run with docker
 
-Run Nullboard in a docker container using `docker-compose build && docker-compose up -d`
+Run Nullboard in a docker container using `docker-compose up -d`. The image is now available on docker hub. 
 
 ## Dead simple
 
@@ -88,6 +88,10 @@ Also:
 * Uses localStorage for storing boards/lists/notes, so be careful around [clearing your cache](https://stackoverflow.com/questions/9948284/how-persistent-is-localstorage)
 
 You spot a bug, file an issue.
+
+## Dockerized version
+
+See [this fork](https://github.com/rsoper/nullboard).
 
 ## Background
 

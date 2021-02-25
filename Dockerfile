@@ -1,6 +1,3 @@
-FROM node:14
-WORKDIR /usr/src/app
-COPY ./app ./
-RUN npm install
-EXPOSE 80
-CMD ["node", "app.js"]
+ARG arch=
+FROM ${arch}nginx:1.18.0-alpine
+COPY ./app /usr/share/nginx/html
